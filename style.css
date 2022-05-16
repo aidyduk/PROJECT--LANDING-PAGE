@@ -1,19 +1,23 @@
 .header {
     background-color: #1f2937;
+    height: 200px;
 }
 
 .footer {
     background-color: #1f2937;
+    height: 50px;
 }
 
 .content1 {
-
+    background-color: #FFFFFF;
 }
 
 .content2 {
-
+    background-color: #FFFFFF;
+    height: 50px;
 }
 
-.content3{
-
+.quote{
+    background-color: #E5E7EB;
+    height: 50px;
 }
