@@ -77,7 +77,13 @@ body {
 
 .content1 {
     background-color: #FFFFFF;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 5px;
     
 }
 
@@ -131,3 +137,28 @@ a {
 
   }
 
+.round-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #3882f6;
+    border-style: solid;
+    
+}
+
+.rand-info{
+    display: flex;
+}
+
+.rand-text{
+    padding-top: 5px;
+    text-align: center;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.rand-container{
+    width: 200px;
+    padding: 20px;
+}
